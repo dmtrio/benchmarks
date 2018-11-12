@@ -14,6 +14,21 @@
     "benchmarking",
     "testing"
   ],
-  "author": "Demetrio Urquidi",
-  "license": "ISC"
+  "author": {
+    "name": "Demetrio Urquidi",
+    "email": "info@dmtrio.me",
+    "url": "https://www.dmtrio.me"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^6.0.4",
+    "benchmark": "^2.1.4",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0"
+  }
 }
