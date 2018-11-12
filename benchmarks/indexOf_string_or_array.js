@@ -1,4 +1,5 @@
 const Benchmark = require('benchmark');
+const benchmarks = require('beautify-benchmark');
 
 const test = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const find = 'O';
@@ -17,10 +18,10 @@ new Benchmark.Suite()
   })
   // add listeners
   .on('cycle', (event) => {
-    console.log(String(event.target));
+    benchmarks.add(event.target);
   })
   .on('complete', () => {
-    console.log(`Fastest is ${this.filter('fastest').map('name')}`);
+    benchmarks.log();
   })
   // run async
   .run({ async: true });

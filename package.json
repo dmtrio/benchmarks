@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "acorn": "^6.0.4",
+    "beautify-benchmark": "^0.2.4",
     "benchmark": "^2.1.4",
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
