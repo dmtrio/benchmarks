@@ -1,0 +1,19 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "description": "Location to do speed test of methods and functions for a speedy javascript!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/dmtrio/benchmarks"
+  },
+  "keywords": [
+    "benchmarking",
+    "testing"
+  ],
+  "author": "Demetrio Urquidi",
+  "license": "ISC"
+}
